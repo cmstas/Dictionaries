@@ -8,12 +8,6 @@
 
 namespace {
    struct dictionary {
-      std::vector<std::vector<int> > vi2d;
-      edm::Wrapper<std::vector<std::vector<int> > > wvi2d;
-	
-      std::vector<std::vector<std::vector<int> > > vi3d;
-      edm::Wrapper<std::vector<std::vector<std::vector<int> > > > wvi3d;
-      
       std::vector<std::vector<float> > vf2d;
       edm::Wrapper<std::vector<std::vector<float> > > wvf2d;
       
