@@ -10,6 +10,9 @@ namespace {
    struct dictionary {
       std::vector<std::vector<float> > vf2d;
       edm::Wrapper<std::vector<std::vector<float> > > wvf2d;
+
+      std::vector<std::vector<bool> > vb2d;
+      edm::Wrapper<std::vector<std::vector<bool> > > wvb2d;
       
       std::vector<std::vector<std::vector<float> > > vf3d;
       edm::Wrapper<std::vector<std::vector<std::vector<float> > > > wvf3d;
@@ -25,6 +28,9 @@ namespace {
       
       std::vector<TString> vs;
       edm::Wrapper<std::vector<TString> > wvs;
+
+      std::vector<std::vector<TString> > vs2d;
+      edm::Wrapper<std::vector<std::vector<TString> > > wvs2d;
 
       TBits bits1;
       edm::Wrapper<TBits> wbits1;
