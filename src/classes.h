@@ -13,6 +13,12 @@ namespace {
 
       std::vector<std::vector<bool> > vb2d;
       edm::Wrapper<std::vector<std::vector<bool> > > wvb2d;
+
+      std::vector<std::vector<uint16_t> > vb2u16;
+      edm::Wrapper<std::vector<std::vector<uint16_t> > > wvb2u16;
+
+      std::vector<std::vector<uint32_t> > vb2u32;
+      edm::Wrapper<std::vector<std::vector<uint32_t> > > wvb2u32;
       
       std::vector<std::vector<std::vector<float> > > vf3d;
       edm::Wrapper<std::vector<std::vector<std::vector<float> > > > wvf3d;
